@@ -46,24 +46,24 @@
                  //创建depthcontour图层
                  //设置opacity:.8
                  var wms_water_depth = new OpenLayers.Layer.WMS(
-                                       "Water Depth",
-                                       "http://labs.metacarta.com/wms/vmap0",
-                                       {
-                                           layers: "depthcontour", transparent: true
-                                       },
-                                       { opacity: .8 }
-                               );
-                               //创建一些road图层,包括一级公路、二级公路和铁路
-                               //设置options的transitionEffect: "resize"，使图层放大或缩小时产生调整大小的动画效果
-                               var wms_roads = new OpenLayers.Layer.WMS(
-                                       "Roads",
-                                       "http://labs.metacarta.com/wms/vmap0",
-                                       {
-                                           layers: "priroad,secroad,rail", transparent: true
-                                       },
-                                       {
-                                           transitionEffect: "resize"
-                                       }
+                            "Water Depth",
+                            "http://labs.metacarta.com/wms/vmap0",
+                            {
+								layers: "depthcontour", transparent: true
+							},
+							{ opacity: .8 }
+							);
+                 //创建一些road图层,包括一级公路、二级公路和铁路
+                 //设置options的transitionEffect: "resize"，使图层放大或缩小时产生调整大小的动画效果
+                   var wms_roads = new OpenLayers.Layer.WMS(
+                            "Roads",
+                             "http://labs.metacarta.com/wms/vmap0",
+                              {
+                                 layers: "priroad,secroad,rail", transparent: true
+                               },
+                               {
+                                   transitionEffect: "resize"
+                               }
                                );
                                map.addLayers([wms, new_wms, wms_state_lines, wms_water_depth, wms_roads]);
                                //设置地图的中心位置
@@ -71,12 +71,6 @@
                                //添加Switcher Control
                                map.addControl(new OpenLayers.Control.LayerSwitcher());
 
-
-//                 map.addLayer(wms);
-//                 map.addLayer(new_wms);
-//                 map.addlayer(wms_state_lines);
-//                 map.addlayer(wms_water_depth);
-//                 map.addlayer(wms_roads);
                           if (!map.getCenter()) {
                                   map.zoomToMaxExtent();
                               }
