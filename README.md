@@ -1,5 +1,5 @@
-# Openlayers
-practice Openlayers hehe
+# Openlayers2
+**openlayers.js img theme必须在同一目录下**
 ### sublime text 3 3314 激活码
 —– BEGIN LICENSE —–
 Anthony Sansone
