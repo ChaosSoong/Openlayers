@@ -65,16 +65,16 @@
                                    transitionEffect: "resize"
                                }
                                );
-                 var pointline = new OpenLayers.Layer.WMS("管网",
-                     "/qgis/bin/qgis_mapserv.fcgi?map=c:/maps/cz.qgs&", {
-                         layers: 't_pipelinepoints(geom),v_map_pipelinesections',
-                         format: "image/png",
-                         transparent: true,
-                         dpi: 96,
-                         VERSION: "1.3.0",
-                         isBaseLayer: false
-                     });
-                 map.addLayers([wms, new_wms, wms_state_lines, wms_water_depth, pointline]);
+//                 var pointline = new OpenLayers.Layer.WMS("管网",
+//                     "/qgis/bin/qgis_mapserv.fcgi?map=c:/maps/cz.qgs&", {
+//                         layers: 't_pipelinepoints(geom),v_map_pipelinesections',
+//                         format: "image/png",
+//                         transparent: true,
+//                         dpi: 96,
+//                         VERSION: "1.3.0",
+//                         isBaseLayer: false
+//                     });
+                 map.addLayers([wms, new_wms, wms_state_lines, wms_water_depth/*, pointline*/]);
                  //设置地图的中心位置
                  map.setCenter(new OpenLayers.LonLat(lon, lat), zoom);
                  //添加Switcher Control
