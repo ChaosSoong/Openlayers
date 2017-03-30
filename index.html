@@ -1,94 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>openlayers2</title>
-    <script type="text/javascript" src="openlayers/OpenLayers.js"></script>
-    <script>
-        var map;
-        var lon =120;
-        var lat = 39;
-        var zoom = 6;
-             function init() {
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="openlayers/theme/default/style.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="openLayers/OpenLayers.debug.js"></script>
+    <!-- <script src="https://openlayers.org/en/v3.19.1/build/ol.js" type="text/javascript"></script>
+    <script src="script/fly.js" type="text/javascript"></script> -->
+    <title>OpenLayers</title>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new OpenLayers.Map("map");
 
-                 map = new OpenLayers.Map('map',{});
-                 //创建叠加图层
-                 var new_wms = new OpenLayers.Layer.WMS(
-                         'New OpenLayers WMS',
-                         'http://vmap0.tiles.osgeo.org/wms/vmap0',
-//                         'http://wms.jpl.nasa.gov/wms.cgi',
-                         {
-                             layers: "clabel,ctylabel,statelabel", transparent: true
-                         },
-                         {
-                             //visibility:false,
-                             opacity: 1
-                         }
-                 );
-                 //创建基底图层
-                 var wms = new OpenLayers.Layer.WMS(
-                         'OpenLayers WMS',
-                         'http://vmap0.tiles.osgeo.org/wms/vmap0',
-                         {
-                             layers: "basic"
-                         },
-                         {
-                             isBaseLayer: true
-                         }
-                 );
-
-                 var wms_state_lines = new OpenLayers.Layer.WMS(
-                           "State Line Layer",
-                           "http://labs.metacarta.com/wms/vmap0",
-                           { layers: "stateboundary", transparent: true },
-                           { displayInLayerSwitcher: false, minScale: 13841995.078125 }
-                               );
-                 //创建depthcontour图层
-                 //设置opacity:.8
-                 var wms_water_depth = new OpenLayers.Layer.WMS(
-                            "Water Depth",
-                            "http://labs.metacarta.com/wms/vmap0",
-                            {
-								layers: "depthcontour", transparent: true
-							},
-							{ opacity: .8 }
-							);
-                 //创建一些road图层,包括一级公路、二级公路和铁路
-                 //设置options的transitionEffect: "resize"，使图层放大或缩小时产生调整大小的动画效果
-                   var wms_roads = new OpenLayers.Layer.WMS(
-                            "Roads",
-                             "http://labs.metacarta.com/wms/vmap0",
-                              {
-                                 layers: "priroad,secroad,rail", transparent: true
-                               },
-                               {
-                                   transitionEffect: "resize"
-                               }
-                               );
-//                 var pointline = new OpenLayers.Layer.WMS("管网",
-//                     "/qgis/bin/qgis_mapserv.fcgi?map=c:/maps/cz.qgs&", {
-//                         layers: 't_pipelinepoints(geom),v_map_pipelinesections',
-//                         format: "image/png",
-//                         transparent: true,
-//                         dpi: 96,
-//                         VERSION: "1.3.0",
-//                         isBaseLayer: false
-//                     });
-                 map.addLayers([wms, new_wms, wms_state_lines, wms_water_depth/*, pointline*/]);
-                 //设置地图的中心位置
-                 map.setCenter(new OpenLayers.LonLat(lon, lat), zoom);
-                 //添加Switcher Control
-                 map.addControl(new OpenLayers.Control.LayerSwitcher());
-                 if (!map.getCenter()) {
-                     map.zoomToMaxExtent();
-                 }
-             }
+      var ol_wms = new OpenLayers.Layer.WMS(
+          "OpenLayers WMS",
+          "http://vmap0.tiles.osgeo.org/wms/vmap0",
+          {layers: "basic"}
+      );
+      map.units = "km";
+      map.addLayers([ol_wms]);
+      map.addControl(new OpenLayers.Control.LayerSwitcher());
+      map.zoomToMaxExtent();
+      map.addControl(new OpenLayers.Control.ScaleLine());//比例尺
+      map.events.register("zoomend",map,function(){  
+                console.log(""+map.getResolution()*72*39.37007+",,"+map.units+OpenLayers.DOTS_PER_INCH); //比例尺
+                console.log(""+map.getScale()/1000); //比例尺getScale屏幕上1米代表的地图单位
+            });
+      // map.zoomToScale(100000,true);
+      // console.log(""+map.getScale()+",,"+map.getUnits()+OpenLayers.DOTS_PER_INCH); //
+      //map.zoomToScale(1000,true);
+      //console.log(""+map.getScale()+",,"+map.getUnits()+OpenLayers.DOTS_PER_INCH); //
     </script>
-
-</head>
-<body onload="init()">
-<div id="map" style="width: 1000px;height: 600px;">
-
-</div>
-</body>
+  </body>
 </html>

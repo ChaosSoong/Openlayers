@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+  <name><![CDATA[res1_4m_Project]]></name>
+  <open>1</open>
+  <Snippet maxLines="0"><![CDATA[]]></Snippet>
+  <description><![CDATA[Exported from res1_4m_Project on 2011-8-15]]></description>
+  <Schema name="res1_4m_Project" id="res1_4m_Project_schema">
+    <SimpleField type="int" name="FID">
+      <displayName><![CDATA[FID]]></displayName>
+    </SimpleField>
+    <SimpleField type="string" name="NAME">
+      <displayName><![CDATA[NAME]]></displayName>
+    </SimpleField>
+    <SimpleField type="string" name="PINYIN">
+      <displayName><![CDATA[PINYIN]]></displayName>
+    </SimpleField>
+  </Schema>
+  <Style id="FEATURES">
+    <IconStyle>
+      <color>FF0098E6</color>
+      <scale>.5</scale>
+      <Icon>
+        <href>root://icons/palette-4.png</href>
+        <x>32</x>
+        <y>128</y>
+        <w>32</w>
+        <h>32</h>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <color>00FFFFFF</color>
+    </LabelStyle>
+    <BalloonStyle>
+      <text>
+      </text>
+    </BalloonStyle>
+  </Style>
+  <Style id="FEATURES_LABELS">
+    <IconStyle>
+      <color>00ff0000</color>
+      <Icon>
+        <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+      </Icon>
+    </IconStyle>
+    <LabelStyle>
+      <color>FFFF0000</color>
+    </LabelStyle>
+  </Style>
+  <Folder>
+    <name>Features</name>
+    <open>0</open>
+       <Placemark>
+         <name><![CDATA[澳门]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">32</SimpleData>
+             <SimpleData name="NAME"><![CDATA[澳门]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Macao]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             113.55005645752,22.2007961273193,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[北京]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">0</SimpleData>
+             <SimpleData name="NAME"><![CDATA[北京]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Beijing]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             116.38094329834,39.9236145019531,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[长春]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">6</SimpleData>
+             <SimpleData name="NAME"><![CDATA[长春]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Changchun]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             125.3154296875,43.8925628662109,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[长沙]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">17</SimpleData>
+             <SimpleData name="NAME"><![CDATA[长沙]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Changsha]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             112.981269836426,28.2008247375488,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[成都]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">21</SimpleData>
+             <SimpleData name="NAME"><![CDATA[成都]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Chengdu]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             104.081756591797,30.6610565185547,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[福州]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">12</SimpleData>
+             <SimpleData name="NAME"><![CDATA[福州]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Fuzhou]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             119.297813415527,26.0785903930664,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[广州]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">18</SimpleData>
+             <SimpleData name="NAME"><![CDATA[广州]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Guangzhou]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             113.261428833008,23.1189117431641,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[贵阳]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">23</SimpleData>
+             <SimpleData name="NAME"><![CDATA[贵阳]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Guiyang]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             106.711372375488,26.5768737792969,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[哈尔滨]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">7</SimpleData>
+             <SimpleData name="NAME"><![CDATA[哈尔滨]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Haerbin]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             126.643341064453,45.7414932250977,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[海口]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">20</SimpleData>
+             <SimpleData name="NAME"><![CDATA[海口]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Haikou]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             110.34651184082,20.0317935943604,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[杭州]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">10</SimpleData>
+             <SimpleData name="NAME"><![CDATA[杭州]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Hangzhou]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             120.159248352051,30.2659950256348,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[合肥]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">11</SimpleData>
+             <SimpleData name="NAME"><![CDATA[合肥]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Hefei]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             117.275703430176,31.8632545471191,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[呼和浩特]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">4</SimpleData>
+             <SimpleData name="NAME"><![CDATA[呼和浩特]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Huhehaote]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             111.663299560547,40.8209419250488,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[济南]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">14</SimpleData>
+             <SimpleData name="NAME"><![CDATA[济南]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Jinan]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             117.005599975586,36.6670722961426,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[昆明]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">24</SimpleData>
+             <SimpleData name="NAME"><![CDATA[昆明]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Kunming]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             102.704566955566,25.0438442230225,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[拉萨]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">25</SimpleData>
+             <SimpleData name="NAME"><![CDATA[拉萨]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Lhasa]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             91.1320495605469,29.6575889587402,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[兰州]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">27</SimpleData>
+             <SimpleData name="NAME"><![CDATA[兰州]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Lanzhou]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             103.750053405762,36.0680389404297,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[南昌]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">13</SimpleData>
+             <SimpleData name="NAME"><![CDATA[南昌]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Nanchang]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             115.899917602539,28.6759910583496,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[南京]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">9</SimpleData>
+             <SimpleData name="NAME"><![CDATA[南京]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Nanjing]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             118.77278137207,32.0476150512695,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[南宁]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">19</SimpleData>
+             <SimpleData name="NAME"><![CDATA[南宁]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Nanning]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             108.311767578125,22.8065433502197,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[上海]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">8</SimpleData>
+             <SimpleData name="NAME"><![CDATA[上海]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Shanghai]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             121.469268798828,31.2381763458252,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[沈阳]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">5</SimpleData>
+             <SimpleData name="NAME"><![CDATA[沈阳]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Shenyang]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             123.411682128906,41.7966156005859,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[石家庄]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">2</SimpleData>
+             <SimpleData name="NAME"><![CDATA[石家庄]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Shijiazhuang]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             114.489776611328,38.0451278686523,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[台北]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">31</SimpleData>
+             <SimpleData name="NAME"><![CDATA[台北]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Taipei Shih]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             121.514282226563,25.0491275787354,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[太原]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">3</SimpleData>
+             <SimpleData name="NAME"><![CDATA[太原]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Taiyuan]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             112.569351196289,37.8711128234863,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[天津]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">1</SimpleData>
+             <SimpleData name="NAME"><![CDATA[天津]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Tianjin]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             117.203498840332,39.1311187744141,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[乌鲁木齐]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">30</SimpleData>
+             <SimpleData name="NAME"><![CDATA[乌鲁木齐]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Wulumuqi]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             87.6061172485352,43.7909393310547,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[武汉]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">16</SimpleData>
+             <SimpleData name="NAME"><![CDATA[武汉]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Wuhan]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             114.291938781738,30.5675144195557,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[西安]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">26</SimpleData>
+             <SimpleData name="NAME"><![CDATA[西安]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Xi'an]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             108.949028015137,34.2616844177246,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[西宁]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">28</SimpleData>
+             <SimpleData name="NAME"><![CDATA[西宁]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Xining]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             101.787452697754,36.609447479248,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[香港]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">33</SimpleData>
+             <SimpleData name="NAME"><![CDATA[香港]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Hong Kong]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             114.154403686523,22.2806854248047,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[银川]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">29</SimpleData>
+             <SimpleData name="NAME"><![CDATA[银川]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Yinchuan]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             106.271942138672,38.4680099487305,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[郑州]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">15</SimpleData>
+             <SimpleData name="NAME"><![CDATA[郑州]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Zhengzhou]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             113.650047302246,34.7570343017578,0
+           </coordinates>
+         </Point>
+       </Placemark>
+       <Placemark>
+         <name><![CDATA[重庆]]></name>
+         <Snippet maxLines="1"><![CDATA[$[res1_4m_Project/FID]$[res1_4m_Project/NAME]$[res1_4m_Project/PINYIN]]]></Snippet>
+         <styleUrl>#FEATURES</styleUrl>
+         <ExtendedData>
+           <SchemaData schemaUrl="#res1_4m_Project_schema">
+             <SimpleData name="FID">22</SimpleData>
+             <SimpleData name="NAME"><![CDATA[重庆]]></SimpleData>
+             <SimpleData name="PINYIN"><![CDATA[Chongqing]]></SimpleData>
+           </SchemaData>
+         </ExtendedData>
+         <Point>
+           <extrude>0</extrude>
+           <altitudeMode>clampedToGround</altitudeMode>
+           <coordinates>
+             106.51033782959,29.5581760406494,0
+           </coordinates>
+         </Point>
+       </Placemark>
+  </Folder>
+</Document>
+</kml>
